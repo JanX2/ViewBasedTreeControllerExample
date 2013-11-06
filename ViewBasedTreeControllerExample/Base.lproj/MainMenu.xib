@@ -766,5 +766,6 @@
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
+        <treeController childrenKeyPath="children" id="hyF-rE-pwb"/>
     </objects>
 </document>

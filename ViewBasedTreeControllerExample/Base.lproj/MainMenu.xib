@@ -704,6 +704,9 @@
                                             </prototypeCellViews>
                                         </tableColumn>
                                     </tableColumns>
+                                    <connections>
+                                        <binding destination="hyF-rE-pwb" name="content" keyPath="arrangedObjects" id="wel-bc-eyi"/>
+                                    </connections>
                                 </outlineView>
                             </subviews>
                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>

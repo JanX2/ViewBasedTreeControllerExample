@@ -778,6 +778,14 @@
             </connections>
         </customObject>
         <customObject id="420" customClass="NSFontManager"/>
-        <treeController childrenKeyPath="children" id="hyF-rE-pwb"/>
+        <treeController automaticallyPreparesContent="YES" childrenKeyPath="children" id="hyF-rE-pwb">
+            <declaredKeys>
+                <string>name</string>
+            </declaredKeys>
+            <connections>
+                <binding destination="494" name="contentArray" keyPath="content" id="m7e-md-wRT"/>
+            </connections>
+        </treeController>
+        <userDefaultsController representsSharedInstance="YES" id="TDh-Ej-vtw"/>
     </objects>
 </document>

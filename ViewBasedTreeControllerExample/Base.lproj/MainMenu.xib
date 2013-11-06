@@ -695,6 +695,13 @@
                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
+                                                            <connections>
+                                                                <binding destination="gf2-w1-maF" name="value" keyPath="objectValue.name" id="tL7-ad-nWs">
+                                                                    <dictionary key="options">
+                                                                        <string key="NSNullPlaceholder">&lt;NULL></string>
+                                                                    </dictionary>
+                                                                </binding>
+                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                     <connections>

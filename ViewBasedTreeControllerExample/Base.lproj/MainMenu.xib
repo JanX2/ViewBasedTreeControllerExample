@@ -742,6 +742,9 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="addChild:" target="hyF-rE-pwb" id="9eo-Eg-nso"/>
+                        </connections>
                     </button>
                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="T4S-ej-TpQ">
                         <rect key="frame" x="376" y="13" width="90" height="32"/>

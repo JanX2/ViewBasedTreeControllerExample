@@ -696,9 +696,11 @@
                                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                             </textFieldCell>
                                                             <connections>
-                                                                <binding destination="gf2-w1-maF" name="value" keyPath="objectValue.name" id="tL7-ad-nWs">
+                                                                <binding destination="gf2-w1-maF" name="value" keyPath="objectValue.name" id="Xe9-dY-66X">
                                                                     <dictionary key="options">
                                                                         <string key="NSNullPlaceholder">&lt;NULL></string>
+                                                                        <bool key="NSConditionallySetsEditable" value="YES"/>
+                                                                        <bool key="NSConditionallySetsEnabled" value="YES"/>
                                                                     </dictionary>
                                                                 </binding>
                                                             </connections>

@@ -16,6 +16,16 @@
 	
 	if (self) {
 		_content = [NSMutableArray new];
+		
+		NSDictionary *demoContent = @{@"name": @"Cheeses",
+									  @"children": @[@{@"name": @"Cheddar"},
+													 @{@"name": @"Swiss"}]};
+		
+		NSMutableDictionary *mutableDemoContent = CFBridgingRelease(CFPropertyListCreateDeepCopy(kCFAllocatorDefault,
+																								 (CFDictionaryRef)demoContent,
+																								 kCFPropertyListMutableContainers));
+
+		[_content addObject:mutableDemoContent];
 	}
 	
 	return self;

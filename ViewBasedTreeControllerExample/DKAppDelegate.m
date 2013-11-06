@@ -10,6 +10,17 @@
 
 @implementation DKAppDelegate
 
+- (id)init
+{
+	self = [super init];
+	
+	if (self) {
+		_content = [NSMutableArray new];
+	}
+	
+	return self;
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	// Insert code here to initialize your application

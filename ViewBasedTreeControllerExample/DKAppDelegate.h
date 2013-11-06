@@ -12,4 +12,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (strong) IBOutlet NSMutableArray *content;
+
 @end
